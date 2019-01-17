@@ -1,1 +1,21 @@
-manifest.json
+{
+  "short_name": "mobikom",
+  "name": "The mobikom",
+  "icons": [
+    {
+      "src": "https://github.githubassets.com/favicon.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://github.com/fluidicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "mobikom",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "mobikom",
+  "theme_color": "#3367D6"
+}
