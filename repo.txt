@@ -1,0 +1,33 @@
+mobikom-repo/
+├── index.html         # Английски индекс + Реклама + Търсачка + RSS Link (Главен вход)
+├── 404.html           # Двуезична страница за грешка (noindex)
+├── CNAME              # Конфигурация за собствения домейн mobikom.bg
+├── blog-data.json     # JSON База данни за статиите на блога
+├── schema.json        # Семантични данни (Линкове към BestJobs, Dobruja, DobrichNews)
+├── feed.xml           # Глобален RSS Фийд за автоматична синдикация
+├── robots.txt         # Инструкции за роботите на търсачките + Sitemap + RSS
+├── sitemap.xml        # Финална XML карта с всички активни секции
+├── style.css          # Единствен споделен CSS Grid Level 2 / Subgrid стил
+├── app.js             # Ултра-оптимизиран JavaScript (Зарежда Блога, Търсачката и Schema)
+├── bg/
+│   └── index.html     # Български индекс + Реклама + Търсачка + RSS Link
+├── stoyanov/
+│   └── index.html     # Финален подробен профил на Стоян Стоянов
+├── about/
+│   ├── index.html     # За нас (Главна корпоративна страница)
+│   └── leadership-governance/
+│       └── index.html # Ръководство и управление (Съдържа линка към Стоянов)
+├── contact/
+│   └── index.html     # Изчистени контакти (Без форма, само имейл)
+├── docs/
+│   └── index.html     # Техническа документация (Docs)
+├── seastars/
+│   └── index.html     # Продуктова секция за бранд Seastars
+├── seastarsshop/
+│   └── index.html     # Онлайн магазин Seastars
+├── privacy/
+│   └── index.html     # Поверителност (Zero-Cookie policy)
+├── terms/
+│   └── index.html     # Общи условия
+└── gdpr/
+    └── index.html     # GDPR Права и съответствие
