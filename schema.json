@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mobikom.bg",
+      "name": "Mobikom",
+      "url": "https://mobikom.bg",
+      "logo": "https://mobikom.bgassets/logo.svg",
+      "sameAs": [
+        "https://bestjobs.bg",
+        "https://dobruja.com",
+        "https://dobrichnews.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mobikom.bg#site",
+      "url": "https://mobikom.bg",
+      "name": "Mobikom Solutions"
+    }
+  ]
+}
