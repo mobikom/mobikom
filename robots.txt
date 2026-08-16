@@ -1,5 +1,0 @@
-
-User-agent: *
-Disallow:
-
-Sitemap: https://mobikom.github.io/mobikom/sitemap.xml
