@@ -15,7 +15,6 @@ header { display: grid; grid-template-columns: auto 1fr auto; align-items: cente
 nav ul { display: flex; list-style: none; gap: 1.5rem; justify-content: flex-end; }
 nav a { text-decoration: none; color: var(--txt); font-weight: 500; }
 nav a:hover { color: var(--prm); }
-.lang-switch a { text-decoration: none; padding: 0.25rem 0.5rem; border: 1px solid var(--brd); border-radius: 4px; font-size: 0.875rem; }
 main { max-width: 1200px; width: 100%; margin: 2rem auto; padding: 0 1rem; display: grid; grid-template-columns: repeat(12, 1fr); gap: 2rem; }
 .hero { grid-column: span 12; padding: 3rem 2rem; background: #f4f5f7; border-radius: 8px; text-align: center; }
 .content-box { grid-column: span 12; padding: 1rem 0; }
