@@ -6,11 +6,11 @@
       "@id": "https://mobikom.bg",
       "name": "Mobikom",
       "url": "https://mobikom.bg",
-      "logo": "https://mobikom.bgassets/logo.svg",
+      "logo": "https://mobikom.bg/assets/logo.svg",
       "sameAs": [
         "https://bestjobs.bg",
-        "https://dobruja.com",
-        "https://dobrichnews.com"
+        "https://www.dobruja.com",
+        "https://www.dobrichnews.com"
       ]
     },
     {
