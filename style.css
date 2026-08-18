@@ -23,7 +23,7 @@ main { max-width: 1200px; width: 100%; margin: 2rem auto; padding: 0 1rem; displ
 .blog-card h3 a { color: var(--prm); text-decoration: none; }
 .adv-section { grid-column: span 3; display: grid; gap: 1.5rem; align-content: start; border-left: 1px solid var(--brd); padding-left: 1.5rem; }
 .adv-card { border: 1px dashed var(--prm); background: #fbfcfe; padding: 1.25rem; border-radius: 6px; text-align: center; }
-.adv-card h3 { color: var(--prm); font-size: 0.95rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.adv-card h2 { color: var(--prm); font-size: 0.95rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; }
 .adv-card p { font-size: 0.875rem; color: var(--mut); margin-bottom: 1rem; }
 .grid-half { grid-column: span 12; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
 footer { border-top: 1px solid var(--brd); padding: 2rem; background: #f4f5f7; font-size: 0.875rem; text-align: center; }
