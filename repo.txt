@@ -1,33 +1,33 @@
 mobikom-repo/
-├── index.html         # Английски индекс + Реклама + Търсачка + RSS Link (Главен вход)
-├── 404.html           # Двуезична страница за грешка (noindex)
-├── CNAME              # Конфигурация за собствения домейн mobikom.bg
-├── blog-data.json     # JSON База данни за статиите на блога
-├── schema.json        # Семантични данни (Линкове към BestJobs, Dobruja, DobrichNews)
-├── feed.xml           # Глобален RSS Фийд за автоматична синдикация
-├── robots.txt         # Инструкции за роботите на търсачките + Sitemap + RSS
-├── sitemap.xml        # Финална XML карта с всички активни секции
-├── style.css          # Единствен споделен CSS Grid Level 2 / Subgrid стил
-├── app.js             # Ултра-оптимизиран JavaScript (Зарежда Блога, Търсачката и Schema)
+├── index.html         # English index
+├── 404.html           # 404 page (noindex)
+├── CNAME              # Config domain mobikom.bg
+├── blog-data.json     # JSON data with articles for blog section
+├── schema.json        # Semantic data (Links to BestJobs, Dobruja.com, DobrichNews)
+├── feed.xml           # RSS Feed
+├── robots.txt         # Instruction for Robots + Sitemap + RSS
+├── sitemap.xml        # XML cart
+├── style.css          # Shared CSS Grid Level 2 / Subgrid
+├── app.js             # Optimised JavaScript (Blog, Search and Schema)
 ├── bg/
-│   └── index.html     # Български индекс + Реклама + Търсачка + RSS Link
+│   └── index.html     # Bulgarian index
 ├── stoyanov/
-│   └── index.html     # Финален подробен профил на Стоян Стоянов
+│   └── index.html     # Profile of CEO
 ├── about/
-│   ├── index.html     # За нас (Главна корпоративна страница)
+│   ├── index.html     # About Us (Corporate page)
 │   └── leadership-governance/
-│       └── index.html # Ръководство и управление (Съдържа линка към Стоянов)
+│       └── index.html # Leadership and Governance
 ├── contact/
-│   └── index.html     # Изчистени контакти (Без форма, само имейл)
+│   └── index.html     # Contact Us
 ├── docs/
-│   └── index.html     # Техническа документация (Docs)
+│   └── index.html     # Docs
 ├── seastars/
-│   └── index.html     # Продуктова секция за бранд Seastars
+│   └── index.html     # Brand Seastars
 ├── seastarsshop/
-│   └── index.html     # Онлайн магазин Seastars
+│   └── index.html     # Shop Seastars
 ├── privacy/
-│   └── index.html     # Поверителност (Zero-Cookie policy)
+│   └── index.html     # Privacy Policy (Zero-Cookie policy)
 ├── terms/
-│   └── index.html     # Общи условия
+│   └── index.html     # Terms of Service
 └── gdpr/
-    └── index.html     # GDPR Права и съответствие
+    └── index.html     # GDPR rules
