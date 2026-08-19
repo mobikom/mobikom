@@ -13,15 +13,15 @@
       "title": "Securing Web Interfaces",
       "excerpt": "Learn how to safely architecture frontend logic against injections.",
       "link": "#"
-    }
-  ],
+    },
     {
       "date": "2026-08-16",
       "displayDate": "16 август 2026",
       "title": "Защита на уеб интерфейси",
       "excerpt": "Научете как да изграждате сигурна уеб логика без излишен код.",
       "link": "#"
-    },
+    }
+  ],
   "bg": [
     {
       "date": "2026-08-20",
