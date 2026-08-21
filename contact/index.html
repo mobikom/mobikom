@@ -15,7 +15,28 @@
     </header>
     <main>
         <section class="hero"><h1>Contact Us / Свържете се с Нас | Mobikom Bulgaria</h1><p>Contact directly with Us / Свържете се директно с Нас.</p></section>
-        <section style="grid-column: span 9;"><p title="Часова Зона / Местоположение: София, България">📍 Time Zone / Location: Sofia, Bulgaria.</p><p title="Електронна поща">📧 <strong>Email:</strong> <a href="mailto:office@mobikom.bg">office (at) mobikom.bg</a></p></section>
+        <section style="grid-column: span 9;"><p title="Часова Зона / Местоположение: София, България">📍 Time Zone / Location: Sofia, Bulgaria.</p>
+		<strong>Your Device's Clock</strong>
+  <h2><div id="txt"></div></h2>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+		<p title="Електронна поща">📧 <strong>Email:</strong> <a href="mailto:office@mobikom.bg">office (at) mobikom.bg</a></p></section>
         <aside class="adv-section" aria-label="Our Network Projects">
             <div class="adv-card">
                 <h2>BestJobs.BG</h2> 
