@@ -18,7 +18,7 @@ nav a:hover { color: var(--prm); }
 main { max-width: 1200px; width: 100%; margin: 2rem auto; padding: 0 1rem; display: grid; grid-template-columns: repeat(12, 1fr); gap: 2rem; }
 .hero { grid-column: span 12; padding: 3rem 2rem; background: #f4f5f7; border-radius: 8px; text-align: center; }
 .content-box { grid-column: span 12; padding: 1rem 0; }
-.blog-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+.blog-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10rem; }
 .blog-card { border: 1px solid var(--brd); border-radius: 8px; padding: 1.5rem; display: grid; grid-template-rows: subgrid; grid-row: span 3; gap: 1rem; }
 .blog-card h2 a { color: var(--prm); text-decoration: none; }
 .adv-section { grid-column: span 3; display: grid; gap: 1.5rem; align-content: start; border-left: 1px solid var(--brd); padding-left: 1.5rem; }
